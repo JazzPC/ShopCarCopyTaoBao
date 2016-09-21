@@ -1,0 +1,23 @@
+//
+//  ShopCar--PrefixHeader.pch
+//  ShopCar
+//
+//  Created by PanChuang on 16/9/21.
+//  Copyright © 2016年 PanChuang. All rights reserved.
+//
+
+#ifndef ShopCar__PrefixHeader_pch
+#define ShopCar__PrefixHeader_pch
+
+#import "YYModel.h"
+#import "UIView+Extension.h"
+#import "NSString+helper.h"
+
+#define RgbColor(r,g,b,a) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:a]
+#define MainScreenSize_W   [[UIScreen mainScreen] bounds].size.width
+#define MainScreenSize_H   [UIScreen mainScreen].bounds.size.height
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* ShopCar__PrefixHeader_pch */
